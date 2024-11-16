@@ -6,4 +6,4 @@ FROM httpd:latest
 COPY ./your_website_files/ /usr/local/apache2/htdocs/
 
 # Expose port 80 for the web server
-EXPOSE 8080
+EXPOSE 80
